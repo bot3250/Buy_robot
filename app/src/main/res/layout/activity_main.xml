@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/backGround">
+
+    <TextView
+        android:id="@+id/textHeaderCountOut"
+        android:layout_width="372dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="Время накопление сбережений:"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textCountOut"
+        android:layout_width="382dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/backGroundInput"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textHeaderCountOut" />
+
+    <TextView
+        android:id="@+id/textHeaderManyMonthOut"
+        android:layout_width="373dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="Ежемесячные откладывание средств:"
+
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textCountOut" />
+
+    <TextView
+        android:id="@+id/textManyMonthOut"
+        android:layout_width="389dp"
+        android:layout_height="295dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/backGroundInput"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textHeaderManyMonthOut" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
